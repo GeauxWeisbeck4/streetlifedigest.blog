@@ -1,83 +1,95 @@
 ---
-title: 'Tutorial: Create an Astro Component'
-description: 'Learn how to create your first Astro component.'
-pubDate: 'Jul 02 2022'
-heroImage: '../../assets/images/placeholder-hero.jpg'
-category: 'News'
-tags: ['JavaScript', 'css', 'HTML5', 'GitHub']
+heroImage: ../../assets/images/placeholder-hero.jpg
+category: Survival
+description: >-
+  Trench foot is one of the most painful, horrible smelling, and downright
+  biggest bummers of being homeless. Read this post to learn how to prevent and
+  deal with the dreaded trenchfoot.
+pubDate: 2024-03-10T05:00:00.000Z
+tags:
+  - Pain Management
+  - Survival
+  - Self Care
+  - Self Esteem
+  - Mental Health
+  - Hygiene
+  - Health Care
+  - Trenchfoot
+title: Hacking the Dreaded Trench Foot
 ---
 
-**If you know HTML, you already know enough to write your first Astro component.**
+**If you are really homeless and live in a humid place in the South like North Carolina (like us), you know what I'm talking about - the pruned skin on your feet that causes nerve pain and that horrid smell... it's Trench Foot!**
 
-Astro component syntax is a superset of HTML. The syntax was [designed to feel familiar to anyone with experience writing HTML or JSX](#differences-between-astro-and-jsx), and adds support for including components and JavaScript expressions.
+Trench foot is one of the worst conditions that any human ever has to deal with. It's gross, painful, and one of the most humiliating problems to deal with when you are homeless. If you know what I'm talking about, you may have felt that you could have killed everyone on the city bus with the smell of your stinky feet - not that I haven't or anything...
 
-## JSX-like Expressions
+Well, lucky for those of you who are seeking answers for dealing with this nasty affliction of the feet and skin, I have dealt with this ailment on almost a weekly basis with every rain storm we get here in the lovely south, living in a tent and all.
 
-You can define local JavaScript variables inside of the frontmatter component script between the two code fences (`---`) of an Astro component. You can then inject these variables into the component's HTML template using JSX-like expressions!
+With the care and touch from a woman who worked in Harm Reduction and insight from the guy who can't take his own advice and ends up with trench foot all the time, we bring to you jour personal hack guide to dealing with and preventing Trench Foot!
 
-:::note[dynamic vs reactive]
-Using this approach, you can include **dynamic** values that are calculated in the frontmatter. But once included, these values are not **reactive** and will never change. Astro components are templates that only run once, during the rendering step.
+# First, Deal With What You Got
 
-See below for more examples of [differences between Astro and JSX](#differences-between-astro-and-jsx).
-:::
+Before we get any further, make sure that you have the symptoms of Trench Foot before you take off:
 
-### Variables
+- Rotted, putrid smell of rotting and pruny skin
+- Deep wounds from rubbing your feet in wet socks and walking for 12+ hours in same pair of wet shoes
+- Inability to put pressure on the balls of your feet/heels due to nerve pain
 
-Local variables can be added into the HTML using the curly braces syntax:
+We also have included a few pictures of what Trench Foot looks like so you can compare your own owies with the owies of official Trench Foot research websites.
 
-```astro
----
-const name = 'Astro'
----
+We must take care of Trench Foot and remove it before we can prevent ourselves from getting it again. Do this right now and immediately relieve the aforementioned symptoms in some capacity, while complete abstinence takes some time (\~12 to 24 hours).
 
-<div>
-	<h1>Hello {name}!</h1>
-	<!-- Outputs <h1>Hello Astro!</h1> -->
-</div>
-```
+1. Remove Wet Shoes and Feet From Wet Socks
+2. Wash Your Feet, Antibiotics, and Wrap Feet
+3. Rest, Let Feet Air Out, and Use Dry Socks and Shoes
 
-### Dynamic Attributes
+## Step 1: Remove Shoes and Feet From Wet Socks
 
-Local variables can be used in curly braces to pass attribute values to both HTML elements and components:
+We must take care of the biggest contributor to all of the pain on your body. The wet shoes and socks rub against your wet and pruny skin to wear off the protective skin layers on your feet until nerve endings are exposed. It is advised to let feet air out tonight or at the very least, put on clean dry socks after next steps followed.
 
-```astro title="src/components/DynamicAttributes.astro" "{name}" "${name}"
----
-const name = 'Astro'
----
+## Step 2: Wash Your Feet, Antibiotics, and Wrap Feet
 
-<h1 class={name}>Attribute expressions are supported</h1>
+It is likely your feet smell horrible, so please do this for yourself and your partner. Wash your feet with good smelling body wipes or wash with warm water and soap - whatever you got available. Then go to the Dollar General and buy the spray on foot powder that helps with the smell and wetness of your feet.
 
-<MyComponent templateLiteralNameAttribute={`MyNameIs${name}`} />
-```
+After drying your feet, gently rub on some antibiotic gel to help heal the wounds that expose the nerves on your feet. Cover the antibiotic gel with bandaids and/or gauzes. Wrap your feet with pre-wrap lightly, so lightly as to not cut off the blood flow to your feet. Be careful to not wrap too tight because you don't want to cut off the flow of blood to your toes - they will be asleep big time eventually if blood cannot flow easily to your toes.
 
-:::caution
-HTML attributes will be converted to strings, so it is not possible to pass functions and objects to HTML elements.
-For example, you can't assign an event handler to an HTML element in an Astro component:
+But do make sure to put enough padding - you can also add cotton or other gentle padding that protects your skin while taking the pressure off the pain points on your feet.
 
-```astro
----
-// dont-do-this.astro
-function handleClick() {
-	console.log('button clicked!')
-}
----
+## Step 3: Rest, Let Feet Air Out, and Use Dry Socks and Shoes
 
-<!-- ❌ This doesn't work! ❌ -->
-<button onClick={handleClick}>Nothing will happen when you click me!</button>
-```
+Resting is the only way your feet can truly heal - you need to spend some time off of them. So get a good nights sleep (\~8-12 hours) so they can dry out and heel. That reminds me - try not to sleep with socks on as much as possible. If you can't help it and have to have socks on, please at least use clean and dry socks.
 
-Instead, use a client-side script to add the event handler, like you would in vanilla JavaScript:
+Same goes for the next day when you go about your day, walking around. Make sure your wrapping is protected in new dry socks and a dry pair of shoes.
 
-```astro
----
-// do-this-instead.astro
----
+# Second, Prevent Trench Foot From Coming Back
 
-<button id='button'>Click Me</button>
-<script>
-	function handleClick() {
-		console.log('button clicked!')
-	}
-	document.getElementById('button').addEventListener('click', handleClick)
-</script>
-```
+Prevention is the best way to not have to experience trench foot. Follow these simple steps to make sure that Trench Foot never comes back - or better yet: never get Trench Foot in the first place!
+
+1. New Socks Every Day & Keep Shoes Dry
+2. When it Rains, Change Socks & Shoes + Take Pressure Off Feet
+3. Wash Your Feet and Use Foot Powder
+
+## Step 1: New Socks Every Day & Keep Shoes Dry
+
+Don't let them get pruny and smelly in the first place. A lot of fancy feet care practices aren't really realistic for us on the street, but we can also get two pairs of shoes from Goodwill and always make sure to rotate in a dry pair. Surely, you can afford that - if not see your panhandling post here to learn how to make some money.
+
+You can also receive a lot of fresh pairs of socks if you fly a sign - people love to drop off care packages and they often include socks. Or, head over to the Dollar Tree and get a 3-pair of socks for $1.25. Can't beat it!
+
+## Step 2: When it Rains, Change Socks & Shoes + Take Pressure Off Feet
+
+If you live anywhere near the coast, in the South, or in an area that floods, you will experience mud and rain. It's a fact of being homeless - rain sucks because you get wet, stinky, and cold. So you'll feel great when you are soaking wet and you change into dry and clean clothes. We understand it is hard to find time to pick out a muddy t-shirt in your tent and wash it at the local laundromat, but it really does go a long way in making you feel much better about life.
+
+You can also take pressure off of your feet by sleeping an adequate amount each night - for us, that's usually 8-12 hours a night. That might not be as much for you, but you should have plenty of time to sleep if you have no job. It's great for your immune system and it also allows your beat up feet to heal when you rest up. Sweet dreams!
+
+Oh, and you can also alternate the way you walk or help your feet by using good walking shoes with good support and soles. This will help take pressure off them when you walk 20 + miles a day like we sometimes do.
+
+## Step 3: Wash Your Feet and Use Powder
+
+Again, take a little time to bath and wash yourself - especially your feet - at least once or twice a week. It is a myth that you need to shower everyday to stay clean. But do it enough so that you keep yourself safe from much more than just Trench Foot.
+
+There are some great foot powders you can order off of Amazon or great foot sprays you can find at places like the Dollar Tree. Use this for better smelling feet and more dry feet that don't deteriorate like wet, stinky ones do.
+
+# Conclusion: Jesus Washed the Feet of His Servants
+
+Umm, we're not sure what that has to do with anything, but Jesus even watched the stinky feet of his servants! So don't hesitate to wash your feet, or the feet of your partners (as we do for romantic nights - just kidding) and reap the benefits of having dry, clean, and non-painful feet. If you follow our simple guide, we promise you will not suffer the hell of Trench Foot.
+
+Thanks for reading - share and/or donate if you liked this article!

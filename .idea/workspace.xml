@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477d51b-da03-472a-8565-95dd917c2f95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theme-instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.es.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
+    <list default="true" id="d477d51b-da03-472a-8565-95dd917c2f95" name="Changes" comment="Update blog posts and categories">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/Welcome-to-the-Homeless-Hacker-Blog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/Welcome-to-the-Homeless-Hacker-Blog.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 2.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 2.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 3.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 3.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 4.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 4.mdx" afterDir="false" />
@@ -22,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/content/blog/create-astro-component.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/create-astro-component.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/blog/macbook.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/macbook.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/categories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/site.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/site.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/owner/WebstormProjects/homeless-hacker-blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/owner/WebstormProjects/homeless-hacker-blog/node_modules/prettier",
-    "ts.external.directory.path": "/Users/owner/WebstormProjects/homeless-hacker-blog/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/owner/WebstormProjects/homeless-hacker-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/owner/WebstormProjects/homeless-hacker-blog/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/owner/WebstormProjects/homeless-hacker-blog/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -74,11 +65,24 @@
       <option name="presentableId" value="Default" />
       <updated>1709573972319</updated>
       <workItem from="1709573973766" duration="14000" />
-      <workItem from="1710032370973" duration="4823000" />
+      <workItem from="1710032370973" duration="7734000" />
     </task>
+    <task id="LOCAL-00001" summary="Configure site, add logo, update header and categories">
+      <created>1710045992585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710045992585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configure site, add logo, update header and categories" />
+    <MESSAGE value="Update blog posts and categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update blog posts and categories" />
   </component>
 </project>

@@ -7,5 +7,6 @@ export const CATEGORIES = [
 	'Education',
 	'Survival',
 	'Support',
-	'Resources'
+	'Resources',
+	'Donate Now'
 ] as const
