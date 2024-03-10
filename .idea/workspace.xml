@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d477d51b-da03-472a-8565-95dd917c2f95" name="Changes" comment="Update blog posts and categories">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/Welcome-to-the-Homeless-Hacker-Blog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/Welcome-to-the-Homeless-Hacker-Blog.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 2.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 2.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 3.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 3.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/astro copy 4.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro copy 4.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/astro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/astro.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/create-astro-component.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/create-astro-component.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/macbook.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/macbook.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/categories.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709573972319</updated>
       <workItem from="1709573973766" duration="14000" />
-      <workItem from="1710032370973" duration="7734000" />
+      <workItem from="1710032370973" duration="7815000" />
     </task>
     <task id="LOCAL-00001" summary="Configure site, add logo, update header and categories">
       <created>1710045992585</created>
@@ -74,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710045992585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update blog posts and categories">
+      <created>1710052913530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052913530</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
