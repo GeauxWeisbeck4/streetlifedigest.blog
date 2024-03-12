@@ -10,7 +10,7 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	author: 'Andrew Weisbeck', // Site author
-	title: 'The Homeless Hacker Blog', // Site title.
+	title: 'Weis-Bums Homeless Hacks Blog', // Site title.
 	description:
 		'A blog all about how to make it on the streets, how to help the homeless, and other resources.', // Description to display in the meta tags
 	lang: 'en-US',

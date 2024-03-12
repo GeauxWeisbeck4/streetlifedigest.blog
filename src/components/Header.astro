@@ -24,7 +24,13 @@ const SOCIALNETWORKS = [
 ---
 
 <header class='relative flex items-center h-12 font-semibold'>
-	<a class='text-lg mr-auto' href='/'>Home</a>
+	<div class='flex mr-auto'>
+		<a class='text-lg hover:text-sky-500' href='/'>Home</a>
+		<a class='text-lg hover:text-sky-500 ml-6' href='/about'>About</a>
+		<a class='text-lg hover:text-sky-500 ml-6' href='/tags'>Topics</a>
+		<a class='text-lg hover:text-sky-500 ml-6' href='/contact'>Contact</a>
+		<a class='text-lg hover:text-sky-500 ml-6' href='/donate'>Donate</a>
+	</div>
 
 	<div
 		id='astro-header-drawer'
@@ -36,7 +42,10 @@ const SOCIALNETWORKS = [
 			<div
 				class='flex flex-col gap-4 md:flex-row md:border-r-2 border-black pr-4 dark:border-white'
 			>
-				<HeaderLink href='/tags' class='flex items-center gap-1 text-2xl md:text-base'>
+				<HeaderLink
+					href='/tags'
+					class='flex items-center hover:text-sky-500 gap-1 text-2xl md:text-base'
+				>
 					<TagIcon /> Tags
 				</HeaderLink>
 			</div>
@@ -44,7 +53,12 @@ const SOCIALNETWORKS = [
 			<div class='flex justify-center items-center md:justify-end gap-3 md:p-0'>
 				{
 					SOCIALNETWORKS.map((network) => (
-						<HeaderLink class='' href={network.url} target='_blank' aria-label={network.name}>
+						<HeaderLink
+							class='hover:text-sky-500'
+							href={network.url}
+							target='_blank'
+							aria-label={network.name}
+						>
 							<span>{<network.icon />} </span>
 						</HeaderLink>
 					))
@@ -54,7 +68,7 @@ const SOCIALNETWORKS = [
 	</div>
 
 	<div class='flex items-center gap-3 md:pl-3' transition:persist='navbar'>
-		<div>
+		<div class='hover:text-sky-500'>
 			<Search />
 		</div>
 		<ToggleTheme />
