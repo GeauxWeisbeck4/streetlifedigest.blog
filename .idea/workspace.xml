@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d477d51b-da03-472a-8565-95dd917c2f95" name="Changes" comment="Added a contact form and other pages to website">
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.astro" afterDir="false" />
+    <list default="true" id="d477d51b-da03-472a-8565-95dd917c2f95" name="Changes" comment="Updated the contact form for dark version of website">
+      <change afterPath="$PROJECT_DIR$/public/donationimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/donate.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/donate.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <workItem from="1709573973766" duration="14000" />
       <workItem from="1710032370973" duration="9487000" />
       <workItem from="1710201731676" duration="15083000" />
-      <workItem from="1710250391370" duration="6080000" />
+      <workItem from="1710250391370" duration="7558000" />
     </task>
     <task id="LOCAL-00001" summary="Configure site, add logo, update header and categories">
       <created>1710045992585</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710258887222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated the contact form for dark version of website">
+      <created>1710259525494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710259525494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
     <MESSAGE value="Added about us page" />
     <MESSAGE value="ADDED ABOUT US PAGE&#10;Updated text for dark mode on about page" />
     <MESSAGE value="Added a contact form and other pages to website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a contact form and other pages to website" />
+    <MESSAGE value="Updated the contact form for dark version of website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the contact form for dark version of website" />
   </component>
 </project>
