@@ -1,4 +1,4 @@
-# The Homeless Hacker Blog
+# The Street Life Digest Blog
 
 Welcome to the Homeless Hacker Blog, a project by Andrew Weisbeck and Lisa Heusner. We hope you enjoy our Homeless Hacks that we share with you and hope that you will share our project with your friends and family.
 
@@ -11,8 +11,8 @@ Right now the best way to donate money to us is to send to our CashApp - $lisawe
 - [ ] Share our online store
 - [ ] Customize the site more to our liking
 - [ ] Write more blog posts
-- [ ] Add a donation section
-- [ ] Add social media accounts
+- [x] Add a donation section
+- [x] Add social media accounts
 - [ ] Add YouTube videos
 - [ ] Create a Newsletter
 
