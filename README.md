@@ -15,6 +15,7 @@ Right now the best way to donate money to us is to send to our CashApp - $lisawe
 - [x] Add social media accounts
 - [ ] Add YouTube videos
 - [ ] Create a Newsletter
+- [ ] Fix Header Links
 
 # Things We Need
 
