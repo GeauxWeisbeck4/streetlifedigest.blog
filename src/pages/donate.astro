@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout'
 import TitlePage from '@/components/TitlePage'
 import { Image } from 'astro:assets'
 import donationImg from '../../public/donationimage.png'
+import Kofi from '@/components/Kofi'
 ---
 
 <BaseLayout title='Donate'>
@@ -23,17 +24,24 @@ import donationImg from '../../public/donationimage.png'
 			below:
 		</h2>
 	</div>
-	<h1 class='text-2xl font-bold dark:text-slate-50 mt-2'>
-		CashApp Donations: <strong class='text-3xl'>$lisaweisbeck4</strong>
-	</h1>
+
+	<a
+		href='https://cash.app/$lisaweisbeck4'
+		class='bg-green-400 hover:bg-emerald-600 focus:bg-green-400 text-white border-black dark:border-white border-solid border-2 rounded-lg font-semibold w-fit px-4 py-2'
+		target='_blank'>Send a Cashapp</a
+	>
+
 	<a
 		href='https://patreon.com/andrewweisbeck4?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink'
 		class='bg-sky-700 dark:bg-slate-50 text-white dark:text-sky-700 dark:hover:bg-emerald-700 dark:hover:text-white dark:focus:bg-slate-50 dark:focus:text-sky-700 w-fit rounded-lg px-4 py-2 font-semibold hover:bg-emerald-700 focus:bg-sky-700'
-		>Support Me on Patreon</a
+		target='_blank'>Support Me on Patreon</a
 	>
-	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
-	></script><script type='text/javascript'>
-		kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'Z8Z4VJ1VA')
-		kofiwidget2.draw()
-	</script>
+	<Kofi />
+	<a href='https://www.buymeacoffee.com/andrewweisbeck4' target='_blank'
+		><img
+			src='https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png'
+			alt='Buy Me A Coffee'
+			style='height: 60px !important;width: 217px !important;'
+		/></a
+	>
 </BaseLayout>
