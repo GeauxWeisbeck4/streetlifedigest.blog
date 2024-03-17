@@ -1,12 +1,13 @@
 // List of categories for blog posts
 export const CATEGORIES = [
 	'Making Money',
-	'Homeless Hacks',
 	'News',
 	'Helping the Homeless',
 	'Education',
-	'Survival',
+	'Self Care',
 	'Support',
 	'Resources',
-	'Donate Now'
+	'Homeless Guides',
+	'Reddit',
+	'Quora'
 ] as const
