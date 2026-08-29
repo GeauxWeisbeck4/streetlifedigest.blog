@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.0.8
     version: 4.0.8(typescript@5.2.2)
   astro-font:
-    specifier: ^0.0.72
-    version: 0.0.72
+    specifier: ^0.1.0
+    version: 0.1.81
   astro-imagetools:
     specifier: ^0.9.0
     version: 0.9.0(astro@4.0.8)
@@ -1642,6 +1642,20 @@ packages:
       tslib: 2.6.2
     dev: true
 
+  /@graphql-codegen/plugin-helpers@7.2.1(graphql@15.8.0):
+    resolution: {integrity: sha512-Jw2HPaioMEa4DKG7sgqzL1uWQiIWQu774FwKXx4p83/y3o5GgnRMRdTFtuQQ7Tq6PYyrI5ZITi1jAxeX/Vh2Uw==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/utils': 11.2.2(graphql@15.8.0)
+      change-case-all: 2.1.0
+      common-tags: 1.8.2
+      graphql: 15.8.0
+      import-from: 4.0.0
+      tslib: 2.8.1
+    dev: true
+
   /@graphql-codegen/schema-ast@4.0.0(graphql@15.8.0):
     resolution: {integrity: sha512-WIzkJFa9Gz28FITAPILbt+7A8+yzOyd1NxgwFh7ie+EmO9a5zQK6UQ3U/BviirguXCYnn+AR4dXsoDrSrtRA1g==}
     peerDependencies:
@@ -1871,6 +1885,19 @@ packages:
       dset: 3.1.3
       graphql: 15.8.0
       tslib: 2.6.2
+    dev: true
+
+  /@graphql-tools/utils@11.2.2(graphql@15.8.0):
+    resolution: {integrity: sha512-Do2A/t6ayqOma8m7PvpYMsCBswL+NB35BQSng4GWSBqafL2/BnfAZy/NSENPwV721Rm2fG0BHETFC0+FJJZmLw==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
+      '@whatwg-node/promise-helpers': 1.3.2
+      cross-inspect: 1.0.1
+      graphql: 15.8.0
+      tslib: 2.8.1
     dev: true
 
   /@graphql-tools/utils@8.13.1(graphql@15.8.0):
@@ -4361,7 +4388,7 @@ packages:
     hasBin: true
     dependencies:
       '@graphql-codegen/core': 2.6.8(graphql@15.8.0)
-      '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
+      '@graphql-codegen/plugin-helpers': 7.2.1(graphql@15.8.0)
       '@graphql-codegen/typescript': 4.0.1(graphql@15.8.0)
       '@graphql-codegen/typescript-generic-sdk': 3.1.0(graphql-tag@2.12.6)(graphql@15.8.0)
       '@graphql-codegen/typescript-operations': 4.0.1(graphql@15.8.0)
@@ -8082,6 +8109,13 @@ packages:
       varint: 5.0.2
     dev: true
 
+  /@whatwg-node/promise-helpers@1.3.2:
+    resolution: {integrity: sha512-Nst5JdK47VIl9UcGwtv2Rcgyn5lWtZ0/mhRQ4G8NN2isxpq2TO30iqHzmwoJycjWuyUfg3GFXqP/gFHXeV57IA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      tslib: 2.8.1
+    dev: true
+
   /@xstate/react@3.0.0(react@17.0.2):
     resolution: {integrity: sha512-KHSCfwtb8gZ7QH2luihvmKYI+0lcdHQOmGNRUxUEs4zVgaJCyd8csCEmwPsudpliLdUmyxX2pzUBojFkINpotw==}
     peerDependencies:
@@ -8379,8 +8413,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro-font@0.0.72:
-    resolution: {integrity: sha512-FUjIerovSg2lsfJfvvqY23hgvc++gHi69ikFkxm0mqO3MPFykK5ppeUuROUjhNbE6vwdD8MpiJOy1CR5S0g/lQ==}
+  /astro-font@0.1.81:
+    resolution: {integrity: sha512-rbrv/+ZSYdgyjBlhkAqfCjMxqqo6iEwnSo/rAdDt/POILsF0ChxMFhefIIzKEukrRGtVjEj1lrLRYk+AdV9scQ==}
     dev: false
 
   /astro-imagetools@0.9.0(astro@4.0.8):
@@ -8930,6 +8964,15 @@ packages:
       upper-case-first: 2.0.2
     dev: true
 
+  /change-case-all@2.1.0:
+    resolution: {integrity: sha512-v6b0WWWkZUMHVuYk82l+WROgkUm4qEN2w5hKRNWtEOYwWqUGoi8C6xH0l1RLF1EoWqDFK6MFclmN3od6ws3/uw==}
+    dependencies:
+      change-case: 5.4.4
+      sponge-case: 2.0.3
+      swap-case: 3.0.3
+      title-case: 3.0.3
+    dev: true
+
   /change-case@4.1.2:
     resolution: {integrity: sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==}
     dependencies:
@@ -8945,6 +8988,10 @@ packages:
       sentence-case: 3.0.4
       snake-case: 3.0.4
       tslib: 2.6.2
+    dev: true
+
+  /change-case@5.4.4:
+    resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
     dev: true
 
   /character-entities-html4@2.1.0:
@@ -9256,6 +9303,13 @@ packages:
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
+    dev: true
+
+  /cross-inspect@1.0.1:
+    resolution: {integrity: sha512-Pcw1JTvZLSJH83iiGWt6fRcT+BjZlCDRVwYLbUcHzv/CRpB7r0MlSrGbIyQvVSNyGnbt7G4AXuyCiDR3POvZ1A==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      tslib: 2.8.1
     dev: true
 
   /cross-spawn@7.0.3:
@@ -15490,6 +15544,10 @@ packages:
       tslib: 2.6.2
     dev: true
 
+  /sponge-case@2.0.3:
+    resolution: {integrity: sha512-i4h9ZGRfxV6Xw3mpZSFOfbXjf0cQcYmssGWutgNIfFZ2VM+YIWfD71N/kjjwK6X/AAHzBr+rciEcn/L34S8TGw==}
+    dev: true
+
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
@@ -15741,6 +15799,10 @@ packages:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
       tslib: 2.6.2
+    dev: true
+
+  /swap-case@3.0.3:
+    resolution: {integrity: sha512-6p4op8wE9CQv7uDFzulI6YXUw4lD9n4oQierdbFThEKVWVQcbQcUjdP27W8XE7V4QnWmnq9jueSHceyyQnqQVA==}
     dev: true
 
   /synckit@0.8.5:
@@ -16014,7 +16076,7 @@ packages:
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /titleize@3.0.0:
@@ -16110,6 +16172,10 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+    dev: true
 
   /tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
